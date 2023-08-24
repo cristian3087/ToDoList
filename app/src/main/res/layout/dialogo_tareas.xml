@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <EditText
+        android:id="@+id/etTarea"
+        android:layout_width="match_parent"
+        android:hint="Escriba la tarea"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/my_color"
+        />
+    <RadioGroup
+        android:id="@+id/rTareas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/rbNegocios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Negocios"
+            android:textSize="18sp"
+            android:buttonTint="@color/red"
+            android:textStyle="normal"
+            />
+        <RadioButton
+            android:id="@+id/rbPersonal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal"
+            android:textSize="18sp"
+            android:buttonTint="@color/my_color"
+            android:textStyle="normal"
+            />
+        <RadioButton
+            android:id="@+id/rbOtros"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Negocios"
+            android:textSize="18sp"
+            android:buttonTint="@color/black"
+            android:textStyle="normal"
+            />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnAgregar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTint="@color/black"
+
+        android:text="Agregar"></Button>
+
+</LinearLayout>

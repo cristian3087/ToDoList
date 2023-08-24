@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="#F19898"
+    android:layout_marginVertical="4dp"
+    android:layout_marginHorizontal="15dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        >
+        <CheckBox
+            android:id="@+id/cbTarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:buttonTint="@color/white"
+           ></CheckBox>
+
+        <TextView
+            android:id="@+id/tvTarea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Tarea 1"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
